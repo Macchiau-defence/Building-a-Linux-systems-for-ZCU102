@@ -24,6 +24,7 @@
     - [2.1 制作步骤](#21-制作步骤)
   - [3 启动验证](#3-启动验证)
   - [4 后续完善](#4-后续完善)
+  - [5 参考](#5-参考)
 
 
 ## 0 环境
@@ -432,4 +433,12 @@
 
   ![](https://raw.githubusercontent.com/Egoqing/Building-a-Linux-systems-for-ZCU102-1/main/img/4-c-result.jpg)
 
-[回到顶部](#目录)  
+[回到顶部](#目录)
+<br/>
+
+## 5 参考
+- [Xilinx Open Source Linux](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/460653138/Xilinx+Open+Source+Linux)
+- [ZCU102板移植开源linux系统（不用petalinux）笔记](https://blog.csdn.net/weixin_42410919/article/details/112282413)
+- [ubuntu16.04最小根文件系统制作及集成安装ros-kinetic-ros-base及遇到的各种坑](https://blog.csdn.net/u012572552/article/details/104408372)
+- [arm移植ubuntu系统出现A start job is running for dev-ttymxc0.device](https://blog.csdn.net/u012572552/article/details/104408372)
+- [如何製作ubuntu arm64的rootfs檔案](http://sam0537.blogspot.com/2020/02/)
