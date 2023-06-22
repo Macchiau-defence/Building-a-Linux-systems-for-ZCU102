@@ -320,7 +320,7 @@
     sudo bash ch-mount.sh -m ubuntu-rootfs/
     ```
     接下来的步骤**都是**在此虚拟环境中进行，直到退出chroot环境
-6. 挂载后更新软件源:`apt-get update`
+6. 挂载后更新软件源:`apt-get update` `apt-get upgrade` `apt-get install apt-utils`
 7. 安装必要的工具包:
 
     ```shell
