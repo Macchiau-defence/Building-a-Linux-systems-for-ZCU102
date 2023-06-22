@@ -320,15 +320,16 @@
     sudo bash ch-mount.sh -m ubuntu-rootfs/
     ```
     接下来的步骤**都是**在此虚拟环境中进行，直到退出chroot环境
-6. 挂载后更新软件源:`apt-get update` `apt-get upgrade` `apt-get install apt-utils`
+6. 挂载后更新软件源:`apt-get update` `apt-get upgrade`
 7. 安装必要的工具包:
 
     ```shell
+    apt-get install sud
     apt-get install vim
     apt-get install language-pack-en-base
     apt-get install language-pack-zh-hans-base
     apt-get install dialog
-    apt-get install sudo ssh ethtool iputils-ping net-tools ifupdown
+    apt-get install ssh ethtool iputils-ping net-tools ifupdown
     ```
     
     在安装language-pack-en-base后需要配置local文件：
