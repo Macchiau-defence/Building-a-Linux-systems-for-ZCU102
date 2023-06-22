@@ -324,10 +324,10 @@
 7. 安装必要的工具包:
 
     ```shell
-    apt-get install language-pack-en-base #（可选）
-    apt-get install dialog
-    apt-get install language-pack-zh-hans-base
     apt-get install vim
+    apt-get install language-pack-en-base
+    apt-get install language-pack-zh-hans-base
+    apt-get install dialog
     apt-get install sudo ssh ethtool iputils-ping net-tools ifupdown
     ```
     
