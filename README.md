@@ -324,7 +324,7 @@
 7. 安装必要的工具包:
 
     ```shell
-    apt-get install sud
+    apt-get install sudo
     apt-get install vim
     apt-get install language-pack-en-base
     apt-get install language-pack-zh-hans-base
